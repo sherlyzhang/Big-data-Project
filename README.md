@@ -27,9 +27,6 @@ The data represents measurements of parts as they move through Bosch's productio
 **train_date.csv** - the training set date features
 
 ### Code Files
-**Bosch-CXR.ipynb**
-
-**Project_7.16_DQY.ipynb**
 
 **Step_1_Exploratory_Data_Analysis.ipynb**
 
