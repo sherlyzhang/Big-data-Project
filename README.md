@@ -63,8 +63,10 @@ Second, because of the large amount of features, we learned how to do feature en
 Third, at the start of modeling part, we naturally believe random forest will be the best model since it suits for a lot of dataset. However, surprisingly, it turned out that random forest predicted bad with our dataset. We learn from the experience that there is no best model for one dataset but only suitable model.
 
 * How did you validate your results?
+
 We use Matthews correlation coefficient (MCC) to evaluate the model performance because the prediction classification is imbalanced.
 ## Future work: 
 * what would you do differently and what follow-up work would you do?
+
 What we would do differently is that we would open a cluster with larger instances before manipulating the dataset and modeling since we spent most of our time on waiting the results of model training. 
 We would use alternative methods to deal with imbalanced, sparse data and we would do model tuning.
