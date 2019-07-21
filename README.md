@@ -66,7 +66,7 @@ Third, at the start of modeling part, we naturally believe random forest will be
 
 We use Matthews correlation coefficient (MCC) to evaluate the model performance because the prediction classification is imbalanced.
 ## Future work: 
-* what would you do differently and what follow-up work would you do?
+* What would you do differently and what follow-up work would you do?
 
 What we would do differently is that we would open a cluster with larger instances before manipulating the dataset and modeling since we spent most of our time on waiting the results of model training. 
 We would use alternative methods to deal with imbalanced, sparse data and we would do model tuning.
