@@ -49,7 +49,10 @@ We use Spark SQL and XGBoost to analyze the dataset. Since we are dealing with m
 * How did you model the dataset, what techniques did you use and why?
 
 We run random forest model, logistic regression model and gradient boosted tree classifier on Spark and run XGBoost locally. We choose these models because thay can do binary classification which is exactly what we need. 
-* Did you have a hypothesis that you were trying to prove? No.
+
+* Did you have a hypothesis that you were trying to prove? 
+
+No.
 
 * Did you just visualize the dataset, and if so, why?
 
