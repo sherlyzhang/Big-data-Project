@@ -5,7 +5,7 @@
 ## Bosch Production Line Performance
 ### Summary
 
-For our project, we focus on performance prediction for Bosch production line. In this case, the dataset is extremely imbalanced and with thousands of features. At the data preparation stage, we oversampled the data by SMOTE and did feature engineering. Then we utilized Spark SQL and XGBoost to analyze data. We tried four different binary classification models: random forest model, logistic regression model, gradient boosted tree classifier and XGBoost. Finally, we use Matthews correlation coefficient (MCC) to evaluate the model. 
+For our project, we focus on performance prediction for Bosch production line. In this case, the dataset is extremely imbalanced and with thousands of features. At the data preparation stage, we oversampled the data by SMOTE and did feature engineering. Then we utilized Spark SQL and XGBoost to analyze data. We tried four different binary classification models: random forest model, logistic regression model, gradient boosted tree classifier and XGBoost. Finally, we use Matthews correlation coefficient (MCC) to evaluate the model and it turns out that XGBoost is best model.
 
 ### Introduction
 
